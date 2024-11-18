@@ -1,0 +1,73 @@
+
+1. 아래 코드의 출력 결과는?
+
+a = 'python'
+print(a.index('t'))
+
+-------------------------------------
+2. 아래 코드의 출력 결과는?
+
+a = 'python'
+print(a.index('ho'))
+
+-------------------------------------
+3. 아래 코드의 출력 결과는?
+
+a = 'mississippi'
+print(a.index('s'))
+
+-------------------------------------
+4. 아래 코드의 출력 결과는?
+
+a = 'mississippi'
+print(a.index('p', 8, 12))
+
+-------------------------------------
+5. 아래 코드의 출력 결과는?
+
+a = 'this is a chair and that is a desk'
+print(a.rindex('is'))
+
+-------------------------------------
+6. 아래 코드의 출력 결과는?
+
+a = 'this is a chair and that is a desk'
+print(a.rindex('is', 15))
+
+-------------------------------------
+7. 아래 코드의 출력 결과는?
+
+a = 'this is a chair and that is a desk'
+print(a.rindex('de', 2, len(a)))
+
+-------------------------------------
+8. 출력예를 참고하여 빈칸에 들어갈 코드를 작성하세요.
+
+a = 'programming language'
+print(a.find('r'))
+
+-------------------------------------
+9.아래 코드의 출력 결과는?
+
+a = 'programming language'
+print(a.find('a'))
+
+-------------------------------------
+10. 아래 코드의 출력 결과는?
+
+a = 'programming language'
+print(a.find('a', 2, 7))
+
+-------------------------------------
+11. 아래 코드의 출력 결과는?
+
+a = 'programming language'
+print(a.find('b'))
+
+-------------------------------------
+12. 아래 코드의 출력 결과는?
+
+a = 'programming language'
+print(a.rfind('a'))
+
+-------------------------------------
