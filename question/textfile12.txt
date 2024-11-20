@@ -1,73 +1,73 @@
 
 1. 아래 코드의 출력 결과는?
 
-a = 'python'
-print(a.index('t'))
+word = 'programming'
+print(word.startswith('p'))
 
 -------------------------------------
 2. 아래 코드의 출력 결과는?
 
-a = 'python'
-print(a.index('ho'))
+word = 'programming'
+print(word.startswith('pr'))
 
 -------------------------------------
 3. 아래 코드의 출력 결과는?
 
-a = 'mississippi'
-print(a.index('s'))
+word = 'programming'
+print(word.startswith('gram', 2))
 
 -------------------------------------
 4. 아래 코드의 출력 결과는?
 
-a = 'mississippi'
-print(a.index('p', 8, 12))
+word = 'programming'
+print(word.startswith('gram', 3, 6))
 
 -------------------------------------
 5. 아래 코드의 출력 결과는?
 
-a = 'this is a chair and that is a desk'
-print(a.rindex('is'))
+word = 'programming'
+print(word.startswith('g', len(word)))
 
 -------------------------------------
 6. 아래 코드의 출력 결과는?
 
-a = 'this is a chair and that is a desk'
-print(a.rindex('is', 15))
+word = 'programming'
+print(word.startswith('g', len(word)-1))
 
 -------------------------------------
 7. 아래 코드의 출력 결과는?
 
-a = 'this is a chair and that is a desk'
-print(a.rindex('de', 2, len(a)))
+word = 'technology'
+print(word.endswith('y'))
 
 -------------------------------------
 8. 아래 코드의 출력 결과는?
 
-a = 'programming language'
-print(a.find('r'))
+word = 'technology'
+print(word.endswith('logt'))
 
 -------------------------------------
 9.아래 코드의 출력 결과는?
 
-a = 'programming language'
-print(a.find('a'))
+word = 'technology'
+print(word.endswith('no', 2, 6))
 
 -------------------------------------
 10. 아래 코드의 출력 결과는?
 
-a = 'programming language'
-print(a.find('a', 2, 7))
+word = 'technology'
+print(word.endswith('y', 4))
 
 -------------------------------------
 11. 아래 코드의 출력 결과는?
 
-a = 'programming language'
-print(a.find('b'))
+word = 'technology'
+print(word.endswith('logy', 8))
 
 -------------------------------------
 12. 아래 코드의 출력 결과는?
 
-a = 'programming language'
-print(a.rfind('a'))
+word = 'technology'
+print(word.endswith('logy', 6))
 
 -------------------------------------

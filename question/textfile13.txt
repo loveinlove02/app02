@@ -1,0 +1,92 @@
+
+1. 아래 코드의 출력 결과는?
+
+fruits = ['melon', 'apple', 'kiwi']
+s = '-'
+a = s.join(fruits)
+print(a)
+
+-------------------------------------
+2. 아래 코드의 출력 결과는?
+
+book = ('java','python','스크래치')
+s = '~~'
+a = s.join(book)
+print(a)
+
+-------------------------------------
+3. 아래 코드의 출력 결과는?
+
+english = {'one':1, 'two':2, 'three':3}
+s = '/'
+a = s.join(english)
+print(a)
+
+-------------------------------------
+4. 아래 코드의 출력 결과는?
+
+name = 'Peter Pan'
+s = '-'
+a = s.join(name)
+print(a)
+
+-------------------------------------
+5. 출력예를 참고하여 빈칸에 들어갈 코드를 작성하시오?
+
+출력예 : ['Python', 'is', 'a', 'widely', 'used', 'computer', 'language']
+
+text = 'Python is a widely used computer language'
+res = text.[빈칸]()
+print(res)
+
+-------------------------------------
+6. 아래 코드의 출력 결과는?
+
+phone = '010-1234-5678'
+res1 = phone.split('-')
+res2 = ''.join(res1)
+print(res2)
+
+-------------------------------------
+7. 아래 코드의 출력 결과는?
+
+line = '   hello world  '
+line = line.strip()
+print(line)
+
+-------------------------------------
+8. 아래 코드의 출력 결과는?
+
+line = '   hello world  '
+line = line.strip()
+print(len(line))
+
+-------------------------------------
+9.아래 코드의 출력 결과는?
+
+line = 'hello world  '
+line = line.rstrip()
+print(len(line))
+
+-------------------------------------
+10. 아래 코드의 출력 결과는?
+
+line = '  hello world'
+line = line.lstrip()
+print(len(line))
+
+-------------------------------------
+11. 아래 코드의 출력 결과는?
+
+line = '-hello-world-'
+line = line.strip('-')
+print(line)
+
+-------------------------------------
+12. 아래 코드의 출력 결과는?
+
+line = '--hello-world-'
+line = line.lstrip('-')
+print(line)
+
+-------------------------------------
